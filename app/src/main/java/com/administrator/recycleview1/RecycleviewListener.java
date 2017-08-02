@@ -13,4 +13,7 @@ public class RecycleviewListener {
     public interface onItemLongClickListener{
         public void onItemLongClickListener(View view,int position);
     }
+    public interface onListener{
+        public void onListener(View view,int position);
+    }
 }
